@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moavaz.recyclerview.student_activity">
+
+    <ImageView
+        android:id="@+id/hannah"
+        android:layout_width="93dp"
+        android:layout_height="64dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.00"
+        app:srcCompat="@drawable/hannah" />
+
+    <TextView
+        android:id="@+id/idtext"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="100dp"
+        android:layout_height="64dp"
+        android:text="TextView" />
+</LinearLayout>
